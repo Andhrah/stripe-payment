@@ -1,0 +1,17 @@
+{
+  "name": "stripe-payment",
+  "version": "1.0.0",
+  "description": "sample stripe payment server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stripe",
+    "payment",
+    "transfer",
+    "cashout"
+  ],
+  "author": "Alexandra Collins",
+  "license": "ISC"
+}
