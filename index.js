@@ -6,8 +6,13 @@ const stripePublicKey = process.env.STRIPE_PUBLIC_KEY
 console.log(stripeSecretKey);
 
 const express = require('express');
+const ngrok = require('ngrok');
 const bodyParser = require('body-parser');
 const stripe = require('stripe')(stripeSecretKey);
+
+(async function() {
+  const url = await ngrok.connect();
+})();
 
 
 // Set up the express app
