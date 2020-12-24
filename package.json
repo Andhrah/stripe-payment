@@ -4,6 +4,7 @@
   "description": "sample stripe payment server",
   "main": "index.js",
   "scripts": {
+    "build": "babel server -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +14,11 @@
     "cashout"
   ],
   "author": "Alexandra Collins",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "stripe": "^8.129.0"
+  }
 }

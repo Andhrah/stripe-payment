@@ -1,0 +1,12 @@
+node_modules
+dist
+coverage
+
+
+# Logs
+log
+
+# dotenv environment variables file
+.env
+.env.test
+yarn-error.log
